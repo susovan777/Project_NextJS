@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import { lusitana } from '@/app/ui/fonts';
-import CardWrapper, { Card } from '@/app/ui/dashboard/cards';
+import CardWrapper from '@/app/ui/dashboard/cards';
 import {
   CardSkeleton,
   LatestInvoicesSkeleton,
