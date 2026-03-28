@@ -1,5 +1,12 @@
 # Dependency directories
 node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
 ### dotenv ###
 .env
@@ -8,6 +15,10 @@ node_modules/
 .env.development.local
 .env.test.local
 .env.production.local
+
+# next.js
+.next/
+out/
 
 # Optional npm cache directory
 .npm
@@ -30,6 +41,13 @@ coverage
 
 # production
 build
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
 
 # other
 .prettierrc
